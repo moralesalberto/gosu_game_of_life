@@ -19,6 +19,7 @@ class Window < Gosu::Window
 
   def update
     @grid.setup_next_state
+    sleep(0.5)
   end
 
   def draw
