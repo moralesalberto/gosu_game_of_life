@@ -17,7 +17,7 @@ class Window < Gosu::Window
     @grid.setup_seed(seed)
   end
 
-  def setup
+  def update
     @grid.setup_next_state
   end
 
